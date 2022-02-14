@@ -1,0 +1,7 @@
+<div class="container">
+    <h1>Dashboard</h1>
+
+    <div *ngFor="let record of (records | async )" class="records">
+        {{ record.title }}
+    </div>
+</div>
