@@ -1,3 +1,31 @@
 .container {
-    margin: 2rem;
+    margin: 2%;
+
+    .records {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 45%);
+        grid-gap: 1.5%;
+        margin: 2% 0;
+
+        .record-head {
+            padding: 1% 1.5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            background: #CCC;
+            color: blue;
+        }
+        .record-body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 1px solid black;
+            height: 150px;
+        }
+    }
 }
+
+
+
+

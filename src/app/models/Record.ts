@@ -1,9 +1,9 @@
 export interface Record {
     title: string,
     division: string,
-    projectOwner: string,
+    project_owner: string,
     budget: number,
     status: string,
-    createdDate: Date,
-    modifiedDate?: Date
+    created: Date,
+    modified?: Date
 }
